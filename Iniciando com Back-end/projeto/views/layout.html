@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    {% block head %}
+    <title>Mayk Brito</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    {% endblock %}
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a href="/">Sobre</a>
+            <a href="/classes">Aulas</a>
+        </div>
+    </header>
+
+    <!--Templeate engine nunjucks abre y cierra bloque-->
+    {% block content %}
+
+    {% endblock %}
+
+</body>
+
+</html>
