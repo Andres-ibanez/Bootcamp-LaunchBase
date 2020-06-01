@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    {% block head %}
+    <title>Gym Manager</title>
+    {% endblock %}
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a href="/">Instructors</a>
+            <a href="/classes">Members</a>
+        </div>
+    </header>
+
+    <!--Templeate engine nunjucks abre y cierra bloque-->
+    {% block content %}
+
+    {% endblock %}
+
+</body>
+
+</html>
